@@ -23,4 +23,4 @@ if __name__ == '__main__':
       ('PDX', 'DCA'),
       ('DCA', None)
     ]
-    assertEqual(reconstruct_trip(short_set), ['PDX', 'DCA'])
+    print(reconstruct_trip(short_set), ['PDX', 'DCA'])
